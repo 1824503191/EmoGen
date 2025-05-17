@@ -23,8 +23,9 @@ Fig 2. Training process of our network. Emotion representation (stage 1) learns 
 
 ## Setup
 To create the conda environment needed to run the code, run the following command:
-git clone https://github.com/JingyuanYY/EmoGen.git 
+
 ```
+git clone https://github.com/JingyuanYY/EmoGen.git 
 conda env create -f environment/env.yaml
 conda activate EmoGen
 （notice：huggingface-hub >= 0.164,<0.21)
